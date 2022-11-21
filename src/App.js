@@ -8,13 +8,14 @@ async function Test(){
     new TestModel({
 		"Username": "Lorem ipsum dolor sit amet",
 		"Password": "Lorem ipsum dolor sit amet"
+    
 	})
 );
 
 }
 function App() {
   Test();
-  
+
   return (
     <div className="App">
       <header className="App-header">
